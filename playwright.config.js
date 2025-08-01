@@ -14,10 +14,10 @@ export default defineConfig({
   },
 
   projects: [
-    {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    },
+    //{
+     // name: 'chromium',
+     // use: { ...devices['Desktop Chrome'] },
+    //},
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
