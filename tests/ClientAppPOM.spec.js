@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test("E2e flow test", async ({ page }) => {
+test("POM E2e flow test", async ({ page }) => {
 
 
 
@@ -44,12 +44,4 @@ test("E2e flow test", async ({ page }) => {
  await page.getByRole('button',{name:'Buy Now'}).click();
 //await page.pause();
 }
-)
-
-test("verify pages",async({page})=>{
-    await page.goto("https://rahulshettyacademy.com/client/");
-
-
-}
-
 )
