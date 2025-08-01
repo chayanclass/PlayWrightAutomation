@@ -42,6 +42,6 @@ test("E2e flow test", async ({ page }) => {
  
 
  await page.getByRole('button',{name:'Buy Now'}).click();
-await page.pause();
+//await page.pause();
 }
 )
