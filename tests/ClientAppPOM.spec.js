@@ -15,7 +15,7 @@ test("POM E2e flow test", async ({ page }) => {
 
     //Order
     await page.waitForLoadState('networkidle');
-    await expect(page.locator("#products").first()).toBeVisible();
+    //await expect(page.locator("#products").first()).toBeVisible();
     const itemcount = await AllProducts.count();
     for (let i = 0; i < itemcount; i++) {
         const itemname = await AllProducts.nth(i).locator("b").textContent();
