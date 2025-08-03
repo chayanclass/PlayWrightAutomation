@@ -48,7 +48,7 @@ test("E2e flow test", async ({ page }) => {
 
 test("verify pages",async({page})=>{
     await page.goto("https://rahulshettyacademy.com/client/");
-   console.log(await page.title());
+   //console.log(await page.title());
 
 }
 
